@@ -1,0 +1,26 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local editor configuration
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Assignment materials excluded from this repository
+/bike_task.zip
+/task.pdf
+/Automated Hourly Bike Demand Forecasting.pdf
+/Report.odt
