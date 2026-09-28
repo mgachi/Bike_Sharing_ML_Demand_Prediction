@@ -12,14 +12,20 @@ data/
     hour.csv                  Hourly rental data
     day.csv                   Daily rental data
     Readme.txt                Original dataset documentation
+    mock_test_data_3weeks.csv Feature-only sample input for inference
+    mock_test_data_3weeks_predictions.csv
+                               Sample input with predicted rental counts
 src/
     __init__.py
     pipeline.py               Feature engineering and model pipeline
     evaluate.py               Mean Absolute Deviation calculation
     predict.py                Persisted-model inference and CSV output
     visualization.py          Prediction plotting helper
+best_model.joblib             Persisted fitted model and metadata
 requirements.txt                Python and notebook dependencies
 eda_and_modeling.ipynb       EDA, tuning, evaluation, and plots
+Report.pdf                   Project report
+*.png                        Generated analysis and presentation figures
 README.md
 ```
 
@@ -72,7 +78,7 @@ The notebook generates:
 - Prediction-error distributions.
 - Demand and error heatmaps by weekday and hour.
 - Daily demand rhythm and a maintenance window.
-- Weather impact on average fleet utilization.
+- Weather-related differences in hourly rental demand.
 
 ### Inference Testing
 
